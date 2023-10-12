@@ -592,11 +592,30 @@ img.emoji {
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 34px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero h3 {
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 701px) {
+  #get-started-btn{
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+  }
+}
+
+
+
+
 
 @keyframes pulsate-btn {
   0% {
