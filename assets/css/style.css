@@ -603,9 +603,16 @@ img.emoji {
   }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 601px) {
   .d-none-mobile{
     display:none;
+  }
+
+
+  .get-started-btn {
+    margin-right: 10px;
+    padding: 8px 25px 9px 25px;
+    font-size: 12px;
   }
 }
 
@@ -1417,7 +1424,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact { 
-  background-color: #19709d;
+  background-color: #19709dm;
 }
 
 .contact .info {
