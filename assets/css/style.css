@@ -132,7 +132,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 @media (max-width: 992px) {
@@ -593,7 +593,7 @@ img.emoji {
 
   #hero h2 {
     font-size: 34px;
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 30px;
   }
   #hero h3 {
@@ -603,13 +603,9 @@ img.emoji {
   }
 }
 
-@media (max-width: 701px) {
-  #get-started-btn{
-    white-space: pre-wrap; /* CSS3 */    
-    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */    
-    white-space: -o-pre-wrap; /* Opera 7 */    
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
+@media (min-width: 701px) {
+  .d-none-mobile{
+    display:none;
   }
 }
 
