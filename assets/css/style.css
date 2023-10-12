@@ -162,8 +162,9 @@ h6 {
 
 @media (max-width: 992px) {
   .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
+    margin-right: 0px!important;
+    padding: 4px 16px 4px 16px;
+    font-size: 14px;
   }
 }
 
@@ -608,12 +609,6 @@ img.emoji {
     display:none;
   }
 
-
-  .get-started-btn {
-    margin-right: 10px;
-    padding: 8px 25px 9px 25px;
-    font-size: 12px;
-  }
 }
 
 
@@ -1554,6 +1549,10 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.form-select{
+    padding: 0.675rem 3.25rem 0.675rem 0.75rem !important;
 }
 
 /*--------------------------------------------------------------
